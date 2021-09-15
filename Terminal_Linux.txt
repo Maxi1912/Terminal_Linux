@@ -1,0 +1,24 @@
+1. Посмотреть где я - pwd.
+2. Создать папку - mkdir folder1.
+3. Зайти в папку - cd folder1.
+4. Создать 3 папки - mkdir folder2 folder3 folder14.
+5. Зайти в любую папку - cd folder3.
+6. Создать 5 файлов (3 txt, 2 json) - touch 1txt.txt 2txt.txt 3txt.txt 1json.json 2json.json.
+7. Создать 3 папки - mkdir folder15 folder6 folder7.
+8. Вывести спосок содержимого папки - ls -la.
+9. Открыть любой txt файл - vim 1txt.txt.
+10. Написать туда любой текст - перейти в режим редактирования нажав "i", ввести любой текст.
+11. Сохранить и выйти - нажать "Esc", а потом ввести ":wq".
+12. Выйти из папки на уровень выше - cd ../.
+13. Переместить любые 2 файла, которые вы создали, в любую другую папку - mv /d/Git/folder1/folder3/2txt.txt /d/Git/folder1/folder3/1json.json ./folder2.
+14. Скопировать любые 2 файла, которые вы создали, в любую другую папку - cp /d/Git/folder1/folder3/3txt.txt /d/Git/folder1/folder3/2json.json ./folder4.
+15. Найти файл по имени - find -name "3txt.txt".
+16. Просмотреть содерджимое в реальном времени (команда grep) - tail -f ./folder3/1txt.txt | grep -i "the"
+17. Вывести несколько первых строк из текстового файла - head -n 3 ./folder3/1txt.txt.
+18. Вывести несколько последних строк из текстового файла - tail -n 3 ./folder3/1txt.txt.
+19. Просмотреть содерджимое длинного файла (команда less) - less ./folder3/1txt.txt.
+20. Вывести дату и время - date.
+
+Задание*
+1. Отправить http запрос на сервер http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000 - curl "http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000".
+2. Написать скрипт который выполнит автоматически пункты 3,4,5,6,7,8,13 - touch script.txt; chmod ugo+x script.txt; vim script.txt; вводим команды(смотреть файл script.txt); ./script.txt.

@@ -1,0 +1,10 @@
+#!/bin/bash
+cd folder1
+mkdir folder2 folder3 folder14
+cd folder3
+touch 1txt.txt 2txt.txt 3txt.txt 1json.json 2json.json
+mkdir folder15 folder6 folder7
+ls -la
+mv /d/Git/folder1/folder3/2txt.txt /d/Git/folder1/folder3/1json.json ./folder2.
+
+
