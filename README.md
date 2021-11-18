@@ -1,2 +1,2 @@
-Terminal_Linux
-pwd, cd, ls, touch, mkdir, find, rm, mv, cat, more, less, head, tail, cp, sudo !!, curl, date, cal, chmod , написание скриптов
+<h1>Linux</h1>
+pwd, cd, ls, touch, mkdir, find, rm, cp, mv, cat, vim, less, head, tail, curl, grep, date, chmod, scripting 
